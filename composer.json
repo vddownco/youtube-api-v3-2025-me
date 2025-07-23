@@ -1,0 +1,16 @@
+{
+    "require": {
+        "xoce/youtube": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./vendor/xoce/youtube"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XoceYouTube\\": "vendor/xoce/youtube/src/"
+        }
+    }
+}
