@@ -1,16 +1,23 @@
 {
+    "name": "xoceunder/xoce-youtube",
+    "description": "PHP wrapper for the Youtube Data API v3 & YouTube Downloader",
+    "keywords": ["youtube", "api", "video", "youtube downloader","php youtube downloader"],
+	"type": "library",
+	"license": "MIT",
     "require": {
-        "xoce/youtube": "*"
+    "php": "^7.2 || ^8.0",
+	"ext-curl": "*",
+	"ext-json": "*"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./vendor/xoce/youtube"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "XoceYouTube\\": "vendor/xoce/youtube/src/"
+			"XoceYouTube\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "xoceunder"
+			"email": "xoceunder@gmail.com"
+        }
+    ]
 }
