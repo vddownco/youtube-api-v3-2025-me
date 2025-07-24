@@ -1,8 +1,9 @@
 {
-    "name": "xoce/youTube",
+    "name": "xoceunder/xoce-youtube",
     "description": "PHP wrapper for the Youtube Data API v3 & YouTube Downloader",
     "keywords": ["youtube", "api", "video", "youtube downloader","php youtube downloader"],
 	"type": "library",
+	"license": "MIT",
     "require": {
     "php": "^7.2 || ^8.0",
 	"ext-curl": "*",
